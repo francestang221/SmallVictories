@@ -1,0 +1,205 @@
+* {
+    background-color:ivory;
+}
+
+body {
+    font-family: "Courier New", Courier, monospace;
+    margin:0px;
+  }
+/*  Menu */
+ul {
+    list-style: none;
+    text-align: center;
+  }
+
+.nav li {
+    display: inline-block;
+    margin-left: 1em;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .nav a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: black;
+  }
+
+/* body  */
+
+h1,h2,h3,h4 {
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  color: goldenrod;
+}
+
+/* Tool page */
+.title {
+  padding-top: 1em;
+  color: darkorchid;
+  font-weight: bold;
+}
+
+.examples {
+  margin-left: 40%;
+  margin-top: 2em;
+  width: 20%;
+  line-height: 1.2em;
+  min-height: 10px;
+  max-height: 10em;
+  overflow: scroll;
+  border-left: 5px dotted darkorchid;
+  border-bottom: 5px dotted darkorchid;
+}
+
+.examples::-webkit-scrollbar {
+  width: 1em;
+}
+.examples::-webkit-scrollbar-track {
+  background: ivory;
+}
+
+.examples::-webkit-scrollbar-thumb {
+  background: darkorchid;
+}
+
+.examples::-webkit-scrollbar-thumb:hover {
+  background: goldenrod;
+}
+
+.examples li {
+  text-align: left;
+  list-style: square;
+}
+
+.tool {
+  max-height: 100em;
+}
+
+form {
+  width: 70%;
+  margin: auto;
+  border: pink;
+}
+
+textarea{
+  width: 90%;
+  font-size: 20px;
+}
+
+#victories {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: darkorchid;
+
+}
+
+.button {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border:0;
+  background-color: darkorchid;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.button:focus {
+  box-shadow: 5px 5px 5px darkorchid;
+}
+
+/*  Resources Page */
+.intro {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*  Contact Page */
+
+.email {
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-align: center;
+}
+
+.email a {
+  text-decoration: none;
+  color: darkorchid;
+  font-size: 3em;
+}
+
+.email a:hover {
+  color: green;
+}
+
+.goodbye {
+  margin-top: 5em;
+  text-align: center;
+}
+
+.funny {
+  margin-top: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.funny a:hover {
+  color: orange;
+}
+
+
+/* buttons */
+.buttons {
+  width: 10%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.download{
+  padding: 12px 24px;
+  font-size: 20px;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+}
+
+#contact {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*  Footer  */
+footer {
+      width: 100%;
+      margin-top: 5em;
+      position: relative;;
+      bottom:0;
+  }
+footer p {
+      text-align: center;
+      color: black;
+  }
+
+
+/*  Sources  */
+.sources li {
+  text-align: center;
+}

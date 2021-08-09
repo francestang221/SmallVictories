@@ -1,0 +1,53 @@
+/* 
+Code adapted from Medium Blog Post:
+https://medium.com/better-programming/make-a-slideshow-with-automatic-and-manual-controls-using-html-css-and-javascript-b7e9305168f9
+*/
+
+
+.pictures {
+  max-width: 70%;
+  max-height: 50%;
+  position: relative;
+  margin: auto
+}
+
+img {
+  width: 100%;
+}
+
+.banner {
+  color: ivory;
+  background-color:rgba(173,216,230, 0.1);
+  text-align: center;
+  font-size: 2em;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  margin-bottom: 25%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+ }
+
+.backward, .forward {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  color: black;
+  font-weight: bold;
+  font-size: 2em;
+  border: none;
+}
+
+.backward:hover,
+.forward:hover {
+  color: goldenrod;
+}
+
+.backward {
+  right: -1em;
+}
+
+.forward {
+  left: -1em;
+}

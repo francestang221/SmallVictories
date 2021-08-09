@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/carousel.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <header>
+        <!--Horizontal Menu-->
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="subpage1.html">Tool</a></li>
+                <li><a href="subpage2.html">Resources</a></li>
+                <li><a href="subpage3.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!--Image Carousel-->
+      <!--
+      Code adapted from Medium Blog Post:
+      https://medium.com/better-programming/make-a-slideshow-with-automatic-and-manual-controls-using-html-css-and-javascript-b7e9305168f9
+      -->
+      
+      <main class="carousel">
+         <!--Pictures-->
+            <div class="pictures">
+                <div class="carousel picture">   
+                  <img src="images/dog.jpg" alt="happy corgi"/>
+                  <div class="banner">Woof! Welcome!</div>
+                </div>
+            
+                <div class="carousel picture"> 
+                  <img src="images/cat.jpg" alt="happy cat"/>
+                  <div class="banner">Meow! Glad you're here!</div>
+                </div>
+            
+               <div class="carousel picture">
+                  <img  src="images/confetti.jpg" alt="confetti"/>
+                  <div class="banner">Let's celebrate!</div>
+                </div>
+            
+                <div class="carousel picture">      
+                  <img src="images/happyface.jpg" alt="happy face stress ball"/>
+                  <div class="banner">Cheers!</div>
+                </div>      
+
+                <!--Forward and Backward Control-->   
+                <button class="forward" onclick='carouselControl(-1)'>&#10094;</button>
+                <button class="backward" onclick='carouselControl(1)'>&#10095;</button>   
+            </div> 
+      </main>
+
+      <div>
+        <ul class="sources">
+          <li class="#source">image sources</li>
+          <li><a href="https://unsplash.com/photos/lvFlpqEvuRM" target="_blank">happy corgi</a></li>
+          <li><a href="https://unsplash.com/photos/Hd7vwFzZpH0" target="_blank">happy cat</a></li>
+          <li><a href="https://unsplash.com/photos/Xaanw0s0pMk" target="_blank">confetti</a></li>
+          <li><a href="https://unsplash.com/photos/ABUWC-0a7_A" target="_blank">stress ball</a></li>
+        </ul>
+      </div>
+      
+
+    <!--Footer-->
+    <footer>
+        <p>&copy; Copyright 2020 Small Victories</p> 
+    </footer>
+    <script src="scripts/carousel.js"></script>
+</body>
+</html>

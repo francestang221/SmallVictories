@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Tool</title>
+</head>
+<body>
+    <header>
+        <!--Horizontal Menu-->
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="subpage1.html">Tool</a></li>
+                <li><a href="subpage2.html">Resources</a></li>
+                <li><a href="subpage3.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <h1>Celebrate Our Small Victories...</h1>
+    <h2>Because they are just as important as our milestones.</h2>
+
+            <!--Scrollbox of examples-->
+    <div>
+            <h3 class="title">Examples</h3>
+            <ul class="examples">
+                <li>made my bed</li>
+                <li>watered the garden</li>
+                <li>walked the dog</li>
+                <li>fed the cat</li>
+                <li>did my homework</li>
+                <li>had a good nap</li>
+                <li>enjoyed the concert</li>
+                <li>watched a good documentary</li>
+                <li>went to bed before the midnight</li>
+                <li>worked out for 10 minutes</li>
+                <li>took a walk</li>
+                <li>called mom</li>
+                <li>called dad</li>
+                <li>sent a gift to my cousin</li>
+                <li>studied for 20 minutes</li>
+                <li>stayed on budget this week</li>
+                <li>got a haircut</li>
+                <li>got a carwash</li>
+                <li>got a praise from someone</li>
+                <li>answered a question on Piazza</li>
+                <li>made lunch</li>
+                <li>made breakfast</li>
+                <li>took vitamins</li>
+                <li>donated clothes</li>
+                <li>finished homework early</li>
+                <li>had a good weather</li>
+                <li>cleaned the hamster's home</li>
+            </ul>
+    </div>
+
+            <!--Submission Form-->
+    <div>
+        <h2 class="title"> Let's celebrate!</h2>
+        <ul id="victories"></ul>
+        <div id="gif"></div>         
+        <!--Form  -->     
+        <form action="http://httpbin.org/post" method="POST">    
+          <fieldset>
+            <legend>Enter your today's small victory here...</legend>  
+              <textarea rows="2" cols="200" id ="victory" name ="victory_text" placeholder="For example: meditated for 1 minute"></textarea>       
+            <button type="submit" class="button" id="submit">Submit</button>
+          </fieldset>
+          </form>
+    </div>
+
+    <div>
+        <a href="https://media.giphy.com/media/3oz8xRF0v9WMAUVLNK/giphy.gif" target="_blank"><h4>image source</h4></a>
+  </div>
+
+
+    <!--Footer-->
+    <footer>
+        <p>&copy; Copyright 2020 Small Victories</p> 
+    </footer>
+    <script src="scripts/celebration.js"></script>
+</body>
+</html>
