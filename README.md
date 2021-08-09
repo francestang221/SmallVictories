@@ -1,5 +1,5 @@
 # SmallVictories
-Celebrate everyday small victories
+Celebrate everyday small victories 🌻
 
 Try it here: http://smolvictories.herokuapp.com/
 
